@@ -1,0 +1,2 @@
+# Differences
+Plain js is good for basic website however for repeated elements that need their own states, React will come into play where you can use the same component multiple times but each instance of that component is independent from one another.
