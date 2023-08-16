@@ -2,6 +2,9 @@ import MeetupItem from "./MeetupItem";
 import classes from "./MeetupItem.module.css";
 
 function MeetupList(props) {
+
+  console.log(props.meetups);
+
   return (
     <ul className={classes.list}>
       {props.meetups.map((meetup) => (
